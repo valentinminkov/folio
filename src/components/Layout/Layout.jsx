@@ -17,15 +17,13 @@ const Name = () => (
 const NavLinks = () => (
   <>
     {" "}
-    <Link variant="link" href="#!" pr={2}>
+    <Link href="#!" pr={2}>
       about
     </Link>
-    <Link variant="linku" href="#!" pr={2}>
+    <Link href="#!" pr={2}>
       projects
     </Link>
-    <Link variant="link" href="#!">
-      contact
-    </Link>
+    <Link href="#!">contact</Link>
   </>
 );
 

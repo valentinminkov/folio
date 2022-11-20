@@ -16,14 +16,13 @@ const Name = () => (
 
 const NavLinks = () => (
   <>
-    {" "}
-    <Link href="#!" pr={2}>
+    <Link href="/about" pr={2}>
       about
     </Link>
-    <Link href="#!" pr={2}>
+    <Link href="/projects" pr={2}>
       projects
     </Link>
-    <Link href="#!">contact</Link>
+    <Link href="/contact">contact</Link>
   </>
 );
 

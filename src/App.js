@@ -1,8 +1,8 @@
-import "./App.css";
+import styles from "./App.module.scss";
 
 function App() {
   return (
-    <div className="app_container">
+    <div className={styles.container}>
       Lorem ipsum
     </div>
   );

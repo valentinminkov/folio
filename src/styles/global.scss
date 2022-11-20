@@ -1,0 +1,9 @@
+@import './variables.scss';
+
+a {
+  color: white;
+  text-decoration: none;
+  &:hover {
+    color: $deep_fuchsia;
+  }
+}

@@ -1,13 +1,20 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./styles/global.scss";
+import "./index.scss";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import Layout from "./components/Layout/Layout";
+import { BrowserRouter } from "react-router-dom";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <Layout>
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
+    </Layout>
   </React.StrictMode>
 );
 

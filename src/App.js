@@ -1,9 +1,11 @@
-import "./App.css";
+import React from "react";
+import Router from "./router";
+import styles from "./App.module.scss";
 
 function App() {
   return (
-    <div className="app_container">
-      Lorem ipsum
+    <div className={styles.container}>
+      <Router />
     </div>
   );
 }

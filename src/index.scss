@@ -1,5 +1,7 @@
+@import "src/styles/_variables.scss";
+
 body {
-  background-color: rgb(34, 34, 34);
+  background-color: $onyx;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",

@@ -1,0 +1,11 @@
+// TO DO
+// Fix global import of variables.
+// Perhaps npm run eject
+// and modify webpack with the following
+// https://stackoverflow.com/questions/66446515/how-to-use-import-global-sass-variables-with-create-react-app-ejected
+// https://webpack.js.org/loaders/sass-loader/#additionaldata
+@import "src/styles/_variables.scss";
+
+.grow {
+  flex-grow: 1;
+}

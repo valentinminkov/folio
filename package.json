@@ -11,8 +11,6 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.4.3",
     "react-scripts": "5.0.1",
-    "rebass": "^4.0.7",
-    "sass": "^1.56.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -40,6 +38,7 @@
     ]
   },
   "devDependencies": {
-    "css-loader": "^6.7.2"
+    "css-loader": "^6.7.2",
+    "sass": "^1.57.0"
   }
 }

@@ -1,0 +1,24 @@
+@import "src/styles/_variables.scss";
+
+.container {
+  padding: 24px 32px;
+  color: $white;
+}
+
+.navContainer {
+  display: flex;
+  margin-bottom: 16px;
+  background-color: rgb(194, 194, 194);
+  padding: 8px;
+  * {
+    padding-right: 8px;
+  }
+  :last-child {
+    padding-right: 0;
+  }
+}
+
+.currentPageLabel {
+  font-weight: bold;
+  color: $onyx;
+}

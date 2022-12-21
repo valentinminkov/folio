@@ -1,9 +1,6 @@
 @import "src/styles/_variables.scss";
 
 a {
-  color: $onyx;
+  color: $white;
   text-decoration: none;
-  &:hover {
-    color: $deep_fuchsia;
-  }
 }

@@ -1,24 +1,40 @@
 @import "src/styles/_variables.scss";
 
 .container {
-  padding: 24px 32px;
   color: $white;
 }
 
 .navContainer {
   display: flex;
-  margin-bottom: 16px;
-  background-color: rgb(194, 194, 194);
+  background-color: $onyx;
   padding: 8px;
+  // TO DO
+  // Mixin candidate
+  -webkit-box-shadow: 0px 5px 8px 0px $smoky_black;
+  box-shadow: 0px 5px 8px 0px $smoky_black;
   * {
-    padding-right: 8px;
+    margin-right: 8px;
   }
   :last-child {
-    padding-right: 0;
+    margin-right: 0;
   }
 }
 
 .currentPageLabel {
+  padding: 8px;
   font-weight: bold;
-  color: $onyx;
+  color: $white;
+  align-self: center;
+}
+
+.childrenContainer {
+  padding: 24px 16px;
+}
+
+.link {
+  border: solid 1px $onyx;
+  padding: 8px;
+  &:hover {
+    border: solid 1px $eerie_black;
+  }
 }

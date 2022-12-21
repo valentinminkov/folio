@@ -31,7 +31,7 @@ const Nav = ({ path, links }) => (
     <div className="grow"></div>
     {links.map((link) => {
       return (
-        <Link key={link} href={link}>
+        <Link key={link} href={link} className={styles.link}>
           {getPathFromPathname(link)}
         </Link>
       );

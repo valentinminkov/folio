@@ -1,13 +1,12 @@
 import React from "react";
-import Image from "../../components/Image/Image";
+import styles from "./Home.module.scss";
 
 export default function Home() {
   return (
-    <div>
-      <Image src={"/images/me.jpeg"} />
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dicta nisi
-      quos eum deleniti suscipit repellat culpa, autem saepe, iusto cum
-      reiciendis itaque magni delectus tempora placeat alias corrupti possimus.
+    <div className={styles.container}>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia iure minus
+      suscipit atque dignissimos exercitationem quibusdam obcaecati hic ex odio
+      quas, repellendus molestias error quaerat sint repellat ea ad natus.
     </div>
   );
 }

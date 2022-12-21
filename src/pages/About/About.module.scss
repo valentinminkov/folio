@@ -1,0 +1,14 @@
+@import "src/styles/_variables.scss";
+
+.introductionContainer {
+  width: 50%;
+  display: flex;
+
+  .portrait {
+    max-height: 200px;
+    border-radius: 2px;
+    border: solid 2px $onyx;
+    padding: 1px;
+    margin-right: 10px;
+  }
+}

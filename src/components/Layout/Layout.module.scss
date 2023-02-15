@@ -2,16 +2,17 @@
 
 .container {
   color: $white;
-
   font-family: "DM Mono";
+  font-size: 18px;
+
 }
 
 .navContainer {
   font-family: "DM Sans";
   display: flex;
-  background-color: $onyx;
-  padding: 8px;
-  border-bottom: solid 1px $smoky_black;
+  padding: 16px;
+  font-size: 20px;
+
   * {
     margin-right: 8px;
   }
@@ -21,20 +22,24 @@
 }
 
 .currentPageLabel {
-  padding: 8px;
+  color: $nickel;
+  font-size: 24px;
   font-weight: bold;
-  color: $white;
   align-self: center;
+  border-right: solid 1px $nickel;
+  padding-right: 16px;
 }
 
 .childrenContainer {
-  padding: 24px 16px;
+  padding: 16px 24px;
 }
 
 .link {
-  border: solid 1px $onyx;
+  color: $white;
+  border-bottom: solid 1px $nickel;
   padding: 8px;
   &:hover {
-    border: solid 1px $eerie_black;
+    color: $nickel;
+    border-bottom: solid 1px $white;
   }
 }

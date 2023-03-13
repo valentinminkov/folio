@@ -20,12 +20,22 @@ const dummyProject = (snapshot) => {
   };
 };
 
-const dummyProjects = Array.from(Array(10).keys()).map(()=>dummyProject(generateLoremFlickrUrl()));
+const dummyProjects = Array.from(Array(10).keys()).map(() =>
+  dummyProject(generateLoremFlickrUrl())
+);
 
 export default function Projects() {
   return (
     <div>
-      <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+      <div>
+        <h2>Check out some of my personal projects</h2>
+        <p>
+          I'm passionate about creating unique online experiences and love
+          discussing my work with others. Whether you're interested in
+          collaborating on a project or simply want to learn more about what I
+          do, feel free to reach out to me.
+        </p>
+      </div>
       <div className={styles.container}>
         {dummyProjects.map(({ name, description, snapshot }) => (
           <Project

@@ -19,9 +19,9 @@ export default function About() {
         <div>
           <h1>Skills and Expertise:</h1>
           <p>
-            As a web developer, I specialize in several areas of expertise and
-            have gained proficiency in a range of technologies. My main skills,
-            in decreasing order of expertise level, include:
+            I specialize in several areas of expertise and have gained
+            proficiency in a range of technologies. My main skills, in
+            decreasing order of expertise level, include:
           </p>
           <ul>
             <li>

@@ -3,6 +3,7 @@
 .introductionContainer {
   width: 50%;
   display: flex;
+  flex-direction: column;
 
   .portrait {
     max-height: 200px;

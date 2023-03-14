@@ -1,5 +1,15 @@
 .container {
-    display: flex;
-    flex-direction: column;
-    row-gap: 8px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+.projectsContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+
+  @media only screen and (max-width: 768px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }

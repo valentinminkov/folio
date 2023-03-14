@@ -2,19 +2,30 @@
 
 .container {
   padding: 8px;
-  border: solid 1px $nickel;
+  border: solid 10px #d9d9d9;
+  background-color: #f2f2f2;
+  color: #333333;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  &:hover {
+    border: solid 10px $prussian_blue;
+  }
+}
+
+.descriptionContainer {
+  display: flex;
 }
 
 .name {
-    p {
-        font-size: 1.5rem;
-        font-weight: 600;
-    }
+  p {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
 }
 
 .description {
-    p {
-        font-size: 1rem;
-        font-weight: 400;
-    }
+  p {
+    font-size: 1rem;
+    font-weight: 400;
+  }
 }

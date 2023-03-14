@@ -20,7 +20,7 @@ const dummyProject = (snapshot) => {
   };
 };
 
-const dummyProjects = Array.from(Array(10).keys()).map(() =>
+const dummyProjects = Array.from(Array(5).keys()).map(() =>
   dummyProject(generateLoremFlickrUrl())
 );
 
@@ -36,7 +36,7 @@ export default function Projects() {
           do, feel free to reach out to me.
         </p>
       </div>
-      <div className={styles.container}>
+      <div className={styles.projectsContainer}>
         {dummyProjects.map(({ name, description, snapshot }) => (
           <Project
             key={generateRandomNumber(1, 999)}
